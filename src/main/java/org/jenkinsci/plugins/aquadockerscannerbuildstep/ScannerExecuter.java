@@ -3,8 +3,8 @@ package org.jenkinsci.plugins.aquadockerscannerbuildstep;
 import hudson.*;
 import hudson.Launcher;
 import hudson.util.ArgumentListBuilder;
-import java.io.File;
-import java.io.PrintStream;
+
+import java.io.*;
 
 import hudson.FilePath;
 import hudson.model.Run;
